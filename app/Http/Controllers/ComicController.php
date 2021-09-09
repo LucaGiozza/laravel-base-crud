@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Comic;
 
 class ComicController extends Controller
 {
@@ -13,7 +14,9 @@ class ComicController extends Controller
      */
     public function index()
     {
-        //
+        $comic = Comic::paginate(4);
+        
+        return view('comics.index', compact('comic'));
     }
 
     /**
