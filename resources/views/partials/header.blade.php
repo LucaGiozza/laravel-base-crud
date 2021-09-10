@@ -7,8 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Comics</a>
-        <a class="nav-link" href="#">inserisci un fumetto</a>
+        <a class="nav-link" href="{{route('comics.index')}}">Comics</a>
+        <a class="nav-link" href="{{route('comics.create')}}">inserisci un fumetto</a>
         <!-- <a class="nav-link disabled">Disabled</a> -->
       </div>
     </div>
