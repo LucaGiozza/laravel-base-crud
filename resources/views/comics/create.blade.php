@@ -32,6 +32,10 @@
     <label for="authors" class="form-label">Autore</label>
     <input type="text" name="author" class="form-control" id="authors">
   </div>
+  <div class="mb-3">
+    <label for="images" class="form-label">Immagine</label>
+    <input type="text" name="image" class="form-control" id="images">
+  </div>
 
   <div class="mb-3">
     <label for="years" class="form-label">Anno</label>
